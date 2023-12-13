@@ -2,18 +2,12 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f8f8f8;
 }
 
 .container {
     max-width: 800px;
-    margin: 20px auto; /* Add margin to all sides */
+    margin: 0 auto;
     padding: 20px;
-    background-color: #fff;
-    border-radius: 8px;
-    overflow: hidden; /* Added overflow to clear floats */
-    box-shadow: none; /* Remove the box shadow */
-}
 }
 
 header {
@@ -25,18 +19,14 @@ header {
 
 header h1 {
     margin: 0;
-    font-size: 2em;
 }
 
 header p {
     margin: 5px 0;
-    font-size: 1.2em;
 }
 
 section h2 {
     color: #333;
-    border-bottom: 2px solid #333;
-    padding-bottom: 5px;
 }
 
 .about-me,
@@ -54,9 +44,6 @@ footer {
     color: #fff;
     text-align: center;
     padding: 10px 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
 }
 
 ul {
@@ -65,4 +52,14 @@ ul {
 }
 
 ul li {
-    margin-bottom
+    margin-bottom: 10px;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
