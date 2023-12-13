@@ -12,6 +12,8 @@ body {
     background-color: #fff;
     border-radius: 8px;
     overflow: hidden; /* Added overflow to clear floats */
+    box-shadow: none; /* Remove the box shadow */
+}
 }
 
 header {
