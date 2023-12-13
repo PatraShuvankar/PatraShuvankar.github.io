@@ -7,12 +7,10 @@ body {
 
 .container {
     max-width: 800px;
-    margin: 0 auto;
+    margin: 20px auto; /* Add margin to all sides */
     padding: 20px;
     background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
-    margin-top: 20px;
     overflow: hidden; /* Added overflow to clear floats */
 }
 
@@ -65,35 +63,4 @@ ul {
 }
 
 ul li {
-    margin-bottom: 10px;
-}
-
-a {
-    color: #007BFF;
-    text-decoration: none;
-    transition: color 0.3s ease-in-out;
-}
-
-a:hover {
-    text-decoration: underline;
-    color: #0056b3;
-}
-
-/* Additional Styles for Project Details */
-.project h3 {
-    color: #333;
-}
-
-/* Stylish Contact Section */
-.contact {
-    text-align: center;
-}
-
-.contact p {
-    font-size: 1.2em;
-}
-
-/* Stylish Footer */
-footer p {
-    font-size: 0.8em;
-}
+    margin-bottom
