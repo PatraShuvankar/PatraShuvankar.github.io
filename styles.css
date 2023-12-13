@@ -1,5 +1,5 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -35,9 +35,31 @@ section h2 {
     margin-bottom: 40px;
 }
 
+.project {
+    margin-bottom: 20px;
+}
+
 footer {
     background-color: #333;
     color: #fff;
     text-align: center;
     padding: 10px 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
